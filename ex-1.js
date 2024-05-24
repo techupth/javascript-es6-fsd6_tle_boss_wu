@@ -12,5 +12,7 @@ let additionalProperties = {
 };
 
 // Start coding here
+// ให้เขียนโปรแกรมรวม Object studentProfile และ additionalProperties เข้าด้วยกัน
+let newStudentProfile = { ...studentProfile, ...additionalProperties };
 
 console.log(newStudentProfile);

@@ -10,5 +10,6 @@ let additionalOrders = [
 ];
 
 // Start coding here
-
+// ให้เขียนโปรแกรมรวม Object orders และ additionalOrders เข้าด้วยกัน
+let newOrders = [...orders, ...additionalOrders];
 console.log(newOrders);
