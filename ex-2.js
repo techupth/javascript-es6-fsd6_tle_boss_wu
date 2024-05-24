@@ -12,6 +12,6 @@ let studentScores = {
   tech: 100,
 };
 
-// Start coding here
+let updateStudentScores = { ...studentProfile, ...studentScores };
 
-console.log(newStudentProfile);
+console.log(updateStudentScores);

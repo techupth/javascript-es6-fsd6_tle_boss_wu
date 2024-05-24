@@ -11,6 +11,7 @@ let additionalProperties = {
   hobbies: ["Football", "Coding"],
 };
 
-// Start coding here
+additionalProperties.hobbies.push("Play Roblox","practice Roblox Studio", "archery", "sleep", "hangout");
+let updateStudentProfile = { ...studentProfile, ...additionalProperties };
 
-console.log(newStudentProfile);
+console.log(updateStudentProfile);
